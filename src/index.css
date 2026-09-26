@@ -1,0 +1,53 @@
+@import "tailwindcss";
+
+@theme {
+  --font-cinzel: "Cinzel", serif;
+  --font-cinzel-decorative: "Cinzel Decorative", serif;
+  --font-serif: "Cormorant Garamond", Georgia, serif;
+  --font-sans: "Plus Jakarta Sans", system-ui, sans-serif;
+  --color-epic-bg: #0b0c10;
+  --color-epic-surface: #13151b;
+  --color-epic-card: #181b24;
+  --color-epic-border: #2c2925;
+  --color-epic-gold: #c89d56;
+  --color-epic-gold-muted: #96743c;
+  --color-epic-crimson: #801e1e;
+  --color-epic-parchment: #ede6d6;
+  --color-epic-parchment-muted: #b8ad96;
+}
+
+/* Custom aesthetic scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #0b0c10;
+}
+::-webkit-scrollbar-thumb {
+  background: #2b2723;
+  border-radius: 4px;
+  border: 1px solid rgba(200, 157, 86, 0.2);
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #3f3933;
+}
+
+/* Sanskrit epigraph subtle styling */
+.sanskrit-verse {
+  font-family: 'Cormorant Garamond', serif;
+  letter-spacing: 0.05em;
+}
+
+/* Subtle parchment and atmospheric grain effect */
+.parchment-card {
+  background: linear-gradient(135deg, rgba(24, 27, 36, 0.95) 0%, rgba(17, 19, 25, 0.98) 100%);
+  border: 1px solid rgba(200, 157, 86, 0.18);
+  box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.7);
+}
+
+.parchment-card-gold {
+  border-color: rgba(200, 157, 86, 0.35);
+  box-shadow: 0 0 25px -5px rgba(200, 157, 86, 0.08);
+}
+

@@ -1,0 +1,6 @@
+{
+  "name": "Mahābhārata: Bhīṣma Parva & Strategic Decision-Making",
+  "description": "An immersive, academic interactive exploration of strategic decision-making in the Mahābhārata's Bhīṣma Parva, featuring character perspectives, scenario dilemmas, ethical reflections, and modern leadership applications.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
